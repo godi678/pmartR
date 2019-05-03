@@ -1,7 +1,9 @@
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 
 language: R
- - tlmgr install index
+
+before_install:
+  - tlmgr install index
 
 sudo: false
 cache: packages
