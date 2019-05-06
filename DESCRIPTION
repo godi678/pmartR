@@ -27,8 +27,11 @@ Imports:
     gridExtra,
     reshape2,
     RcppArmadillo,
-    RColorBrewer, 
-    remotes
+    RColorBrewer
+    
+    
+Depends: remotes 
+
 Suggests:
     knitr,
     rmarkdown,
