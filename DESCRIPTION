@@ -28,10 +28,7 @@ Imports:
     reshape2,
     RcppArmadillo,
     RColorBrewer
-    
-    
 Depends: remotes 
-
 Suggests:
     knitr,
     rmarkdown,
