@@ -1,7 +1,8 @@
 # R for travis: see documentation at https://docs.travis-ci.com/user/languages/r
 
 language: R
-sudo: false
+bioc_required: true
+sudo: required
 cache: packages
 warnings_are_errors: false
-before_install: R -e 'source("https://install-github.me/r-lib/remotes")'
+#before_install: R -e 'source("https://install-github.me/r-lib/remotes")'
