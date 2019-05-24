@@ -7,4 +7,3 @@ cache: packages
 bioc_required = true
 warnings_are_errors: false
 
-#before_install: R -e 'source("https://install-github.me/r-lib/remotes")'
